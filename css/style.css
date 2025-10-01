@@ -1,0 +1,13 @@
+
+
+
+
+.profile-photo .photo{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin:  auto;
+       
+}
