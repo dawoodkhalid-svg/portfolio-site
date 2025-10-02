@@ -1,34 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dawood's Projects</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 600px)">
-    <link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width: 601px) and (max-width: 1024px)">
-    <link rel="stylesheet" href="css/laptop.css" media="only screen and (min-width: 1025px)">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects - Dawood's Portfolio</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:1025px)">
+    <link href="css/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:601px) and (max-width:1024px)">
+    <link href="css/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:600px)">
 </head>
 
 <body>
     <div id="wrapper">
         <header>
             <h1>My Projects</h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Me</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="contact.html">Contact Me</a></li>
-                    </ul>
-                </nav>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
         </header>
 
-    <footer>
-        <!-- Email me part here -->
-        <p>Email: <a href="mailto:dawood.khalid@ontariotechu.net">dawood.khalid@ontariotechu.net</a></p>
-        <p>&copy; 2025 Dawood. All rights reserved.</p>
-    </footer>
+        <article>
+            <h2>My Projects</h2>
+            <p>Here are some projects I've worked on during my studies in Networking and IT Security. Each project
+                represents skills I've developed and challenges I've overcome.</p>
+
+            <section>
+                <h3>Network Security Lab Environment</h3>
+                <p>Built a virtualized network security lab using VirtualBox and pfSense firewall. Configured VLANs,
+                    implemented firewall rules, and set up IDS/IPS monitoring to simulate real-world enterprise network
+                    security scenarios.</p>
+                <p><mark>Technologies:</mark> pfSense, VirtualBox, Snort IDS, Wireshark</p>
+            </section>
+
+            <section>
+                <h3>Penetration Testing Report</h3>
+                <p>Conducted authorized penetration testing on a virtual vulnerable machine (VulnHub). Performed
+                    reconnaissance, vulnerability scanning, exploitation, and privilege escalation. Documented findings
+                    and provided remediation recommendations.</p>
+                <p><mark>Technologies:</mark> Kali Linux, Nmap, Metasploit, Burp Suite</p>
+            </section>
+
+            <section>
+                <h3>Secure Web Application</h3>
+                <p>Developed a secure login system implementing password hashing, SQL injection prevention, and XSS
+                    protection. Applied OWASP Top 10 security principles to ensure the application follows security best
+                    practices.</p>
+                <p><mark>Technologies:</mark> HTML5, CSS3, PHP, MySQL, Security Headers</p>
+            </section>
+
+            <section>
+                <h3>Network Traffic Analysis Tool</h3>
+                <p>Created a Python script to analyze network traffic captures and identify suspicious patterns. The
+                    tool detects port scans, unusual protocols, and potential data exfiltration attempts from PCAP
+                    files.</p>
+                <p><mark>Technologies:</mark> Python, Scapy, Wireshark, Regular Expressions</p>
+            </section>
+
+            <section>
+                <h3>IT Security Awareness Website</h3>
+                <p>Designed and built a responsive educational website teaching basic cybersecurity concepts to
+                    non-technical users. Covered topics like phishing, password security, and social engineering with
+                    interactive examples.</p>
+                <p><mark>Technologies:</mark> HTML5, CSS3, JavaScript, Responsive Design</p>
+            </section>
+        </article>
+
+        <footer>
+            <p>Email: <a href="mailto:dawood.khalid@ontariotechu.net">dawood.khalid@ontariotechu.net</a></p>
+            <p>&copy; 2025 Dawood. All rights reserved.</p>
+        </footer>
     </div>
 </body>
+
 </html>
