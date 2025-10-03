@@ -1,3 +1,29 @@
+@charset "UTF-8";
+/* This is the desktop style: meaning 1025px and above*/
+/* I am going to be going with the color scheme of the following: Font color:#1A1A2E,#16213E,#0F3460,#E94560,Backgroundcolor: #F1F1F1 */
+
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #1A1A2E;
+    padding: 0;
+    margin: 0;
+
+    /* Linear gradient */
+    background: #F1F1F1;
+    background: -moz-linear-gradient(top, #F1F1F1 0%, #E8E8E8 100%);
+    background: -webkit-linear-gradient(top, #F1F1F1 0%, #E8E8E8 100%);
+    background: -o-linear-gradient(top, #F1F1F1 0%, #E8E8E8 100%);
+    background: linear-gradient(bottom, #F1F1F1 0%, #E8E8E8 100%);
+}
+#wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
 .profile-photo .photo{
     width: 500px;
     height: 500px;
