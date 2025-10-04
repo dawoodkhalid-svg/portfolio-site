@@ -42,6 +42,10 @@ A responsive portfolio website showcasing my work as a Networking and IT Securit
 - Header Background: `linear-gradient(45deg, #16213E 0%, #0F3460 100%)`
 - Box Elements: `radial-gradient(center, ellipse cover, #F1F1F1 0%, #0F3460 100%)`
 
+## Testing and Validation
+- Passed with 0 errors
+
+
 ## Responsive Adjustments & Solutions
 - Navigation menu: `display: inline-block` for desktop, `display: block` for mobile
 - Boxes: Fixed 200px for desktop, 45% for tablet, 90% stacked for mobile
