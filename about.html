@@ -5,14 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Dawood's Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 600px)">
-    <link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width: 601px) and (max-width: 1024px)">
-    <link rel="stylesheet" href="css/laptop.css" media="only screen and (min-width: 1025px)">
+    <!-- Main styles for desktop -->
+    <link rel="stylesheet" href="css/style.css" media="only screen and (min-width:960px)">
+    <!-- Mobile-specific overrides -->
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 480px)">
+    <!-- Tablet-specific overrides -->
+    <link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width: 481px) and (max-width: 960px)">
+    
 </head>
 
 <body>
     <div id="wrapper">
+    <!-- Header with navigation -->
     <header>
         <h1>About Me</h1>
             <nav>
@@ -24,8 +28,9 @@
                 </ul>
             </nav>
     </header>
+    <!-- Main content article -->
     <article>
-
+        <!-- Profile section with photo and intro text -->
         <div class = "profile">
             <aside class ="profile-photo">
                 <img src="images/profilephoto.png" alt="My photo" class="photo">
@@ -39,7 +44,7 @@
                 <p>I believe in continuous learning and pushing my boundaries, whether it's mastering a new security tool, building a business concept, or improving my physical performance.</p>
             </div>
         </div>
-
+        <!-- Video section -->
         <section>
             <h3>Get to Know Me</h3>
             <video width="640" height="500" controls poster="images/previewimage.jpg">
@@ -47,6 +52,8 @@
             </video>
             <p class="video-caption">Watch this short video to learn more about my journey and interests.</p>
         </section>
+
+    <!-- Skills & interests boxes -->
     <section>
         <h3>Skills & Interests</h3>
         <div class="box">
@@ -67,6 +74,7 @@
         </div>
     </section>
 </article>
+        <!-- Footer with contact info -->
         <footer>
             <!-- Email me part here -->
             <p>Email: <a href="mailto:dawood.khalid@ontariotechu.net">dawood.khalid@ontariotechu.net</a></p>

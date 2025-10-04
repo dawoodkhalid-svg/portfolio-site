@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact Me - Dawood's Portfolio</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:1025px)">
-    <link href="css/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:601px) and (max-width:1024px)">
-    <link href="css/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:600px)">
+    <!-- Main styles for desktop -->
+    <link rel="stylesheet" href="css/style.css" media="only screen and (min-width:960px)">
+    <!-- Mobile-specific overrides -->
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 480px)">
+    <!-- Tablet-specific overrides -->
+    <link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width: 481px) and (max-width: 960px)">
 </head>
 <body>
     <div id="wrapper">
+        <!-- Header and navigation -->
         <header>
             <h1>Contact Me</h1>
             <nav>
@@ -21,11 +25,11 @@
                 </ul>
             </nav>
         </header>
-        
+        <!-- Main content -->
         <article>
             <h2>Get In Touch With Me</h2>
             <p>Have a question, project idea, or want to collaborate? Fill out the form below and I'll get back to you soon.</p>
-
+            <!-- Contact form -->
             <form method="post" name="contactForm">
                 <p>
                     <label for="name">Name </label>
@@ -59,7 +63,7 @@
 
         </article>
         
-    
+        <!-- Footer with contact info -->
         <footer>
             <p>Email: <a href="mailto:dawood.khalid@ontariotechu.net">dawood.khalid@ontariotechu.net</a></p>
             <p>&copy; 2025 Dawood. All rights reserved.</p>

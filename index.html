@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dawood's Portfolio - Home</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:1025px)">
-    <link href="css/tablet.css" rel="stylesheet" type="text/css"
-        media="only screen and (min-width:601px) and (max-width:1024px)">
-    <link href="css/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:600px)">
+    <!-- Main styles for desktop -->
+    <link rel="stylesheet" href="css/style.css" media="only screen and (min-width:960px)">
+    <!-- Mobile-specific overrides -->
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 480px)">
+    <!-- Tablet-specific overrides -->
+    <link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width: 481px) and (max-width: 960px)">
 </head>
 
 <body>
     <div id="wrapper">
+        <!-- Header and navigation -->
         <header>
             <h1>Dawood's Portfolio</h1>
             <nav>
@@ -24,19 +27,19 @@
                 </ul>
             </nav>
         </header>
-
+        <!-- Main content area -->
         <article>
             <h2>Welcome to My Portfolio</h2>
             <p>Hi, I'm Dawood, a 19-year-old Networking and IT Security student at Ontario Tech University. I'm
                 passionate about cybersecurity, entrepreneurship, and staying active through workouts and combat sports.
             </p>
-
+            <!-- Section about specialties -->
             <section>
                 <h3>What I Do</h3>
                 <p>I specialize in networking and cybersecurity, building secure systems and exploring the latest in IT
                     security. Browse through my work to see what I've been learning and building.</p>
             </section>
-
+            <!-- Boxes highlighting key skills / focus areas -->
             <div class="box">
                 <h4>Cybersecurity</h4>
                 <p>Learning penetration testing and network security</p>
@@ -50,7 +53,7 @@
                 <p>Creating responsive and secure web applications</p>
             </div>
         </article>
-
+        <!-- Footer with contact info -->
         <footer>
             <p>Email: <a href="mailto:dawood.khalid@ontariotechu.net">dawood.khalid@ontariotechu.net</a></p>
             <p>&copy; 2025 Dawood. All rights reserved.</p>

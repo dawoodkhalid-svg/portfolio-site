@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* This is the desktop style: meaning 1025px and above*/
-/* I am going to be going with the color scheme of the following: Font color:#1A1A2E,#16213E,#0F3460,#E94560,Backgroundcolor: #F1F1F1 */
+/* Color scheme used: Dark Blue (#1A1A2E), Navy (#16213E), Deep Blue (#0F3460), Accent Red (#E94560), Light Gray (#F1F1F1) */
+/* This stylesheet overrides the main styles to better fit desktop/laptop screen sizes*/
 
 
 body {

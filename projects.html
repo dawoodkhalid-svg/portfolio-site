@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projects - Dawood's Portfolio</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:1025px)">
-    <link href="css/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:601px) and (max-width:1024px)">
-    <link href="css/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:600px)">
+    <!-- Main styles for desktop -->
+    <link rel="stylesheet" href="css/style.css" media="only screen and (min-width:960px)">
+    <!-- Mobile-specific overrides -->
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 480px)">
+    <!-- Tablet-specific overrides -->
+    <link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width: 481px) and (max-width: 960px)">
 </head>
 
 <body>
     <div id="wrapper">
+        <!-- Header with site title and navigation menu -->
         <header>
             <h1>My Projects</h1>
             <nav>
@@ -23,12 +27,12 @@
                 </ul>
             </nav>
         </header>
-
+        <!-- Main article content -->
         <article>
             <h2>My Projects</h2>
             <p>Here are some projects I've worked on during my studies in Networking and IT Security. Each project
                 represents skills I've developed and challenges I've overcome.</p>
-
+            <!-- Project 1 -->
             <section>
                 <h3>Network Security Lab Environment</h3>
                 <p>Built a virtualized network security lab using VirtualBox and pfSense firewall. Configured VLANs,
@@ -36,7 +40,7 @@
                     security scenarios.</p>
                 <p><Strong>Technologies:</Strong> pfSense, VirtualBox, Snort IDS, Wireshark</p>
             </section>
-
+            <!-- Project 2 -->
             <section>
                 <h3>Penetration Testing Report</h3>
                 <p>Conducted authorized penetration testing on a virtual vulnerable machine (VulnHub). Performed
@@ -44,7 +48,7 @@
                     and provided remediation recommendations.</p>
                 <p><Strong>Technologies:</Strong> Kali Linux, Nmap, Metasploit, Burp Suite</p>
             </section>
-
+            <!-- Project 3 -->
             <section>
                 <h3>Secure Web Application</h3>
                 <p>Developed a secure login system implementing password hashing, SQL injection prevention, and XSS
@@ -52,7 +56,7 @@
                     practices.</p>
                 <p><strong>Technologies:</strong> HTML5, CSS3, PHP, MySQL, Security Headers</p>
             </section>
-
+            <!-- Project 4 -->
             <section>
                 <h3>Network Traffic Analysis Tool</h3>
                 <p>Created a Python script to analyze network traffic captures and identify suspicious patterns. The
@@ -60,7 +64,7 @@
                     files.</p>
                 <p><Strong>Technologies:</Strong> Python, Scapy, Wireshark, Regular Expressions</p>
             </section>
-
+            <!-- Project 5 -->
             <section>
                 <h3>IT Security Awareness Website</h3>
                 <p>Designed and built a responsive educational website teaching basic cybersecurity concepts to
@@ -69,7 +73,7 @@
                 <p><Strong>Technologies:</Strong> HTML5, CSS3, JavaScript, Responsive Design</p>
             </section>
         </article>
-
+        <!--Footer part -->
         <footer>
             <p>Email: <a href="mailto:dawood.khalid@ontariotechu.net">dawood.khalid@ontariotechu.net</a></p>
             <p>&copy; 2025 Dawood. All rights reserved.</p>
