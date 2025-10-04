@@ -3,6 +3,12 @@
 ## Project Overview
 A responsive portfolio website showcasing my work as a Networking and IT Security student at Ontario Tech University. The site includes information about my background, projects, skills, and contact information.
 
+## Repository Link 
+https://github.com/dawoodkhalid-svg/portfolio-site/tree/main
+
+## Website Link 
+https://dawoodkhalid-svg.github.io/portfolio-site/
+
 ## Viewport Sizes and Responsive Design
 
 ### Desktop (1025px and above)
@@ -28,7 +34,7 @@ A responsive portfolio website showcasing my work as a Networking and IT Securit
 - Profile image: 100% width with max-width of 300px
 - Video: 100% width with auto height
 - Typography: Smaller sizes (h1: 25px, h2: 25px, h3: 20px)
-- Form inputs: Full width for better mobile usability
+- Form inputs: Full-width for better mobile usability
 
 ## Color Scheme
 - Dark Blue: `#1A1A2E` - Main text and footer
